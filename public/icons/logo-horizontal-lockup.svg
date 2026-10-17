@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="240" viewBox="0 0 820 240" fill="none">
+  <title>DompetHarian — Horizontal Brand Lockup</title>
+  <desc>Horizontal brand lockup with Origami D emblem on the left and clean non-overlapping wordmark and tagline on the right.</desc>
+  <defs>
+    <linearGradient id="lockupBg" x1="0" y1="0" x2="820" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F3EDE2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Lockup Card Background -->
+  <rect width="820" height="240" rx="32" fill="url(#lockupBg)" stroke="#E5DEC9" stroke-width="2"/>
+
+  <!-- Left Emblem Zone (x=36..196, y=40..200) -->
+  <g id="Lockup-Emblem">
+    <rect x="36" y="40" width="160" height="160" rx="38" fill="#1C1917"/>
+    <!-- Left Spine -->
+    <rect x="68" y="68" width="22" height="104" rx="10" fill="#FAF7F2"/>
+    <line x1="79" y1="80" x2="79" y2="160" stroke="#1C1917" stroke-opacity="0.35" stroke-width="1.5" stroke-dasharray="4 4" stroke-linecap="round"/>
+    <!-- Upper Sage Fold -->
+    <path d="M98 68 H122 C148.51 68 170 89.49 170 116 H144 C144 103.85 134.15 94 122 94 H98 V68 Z" fill="#3B7357"/>
+    <path d="M150 76 C158 66 170 64 176 66 C174 74 168 82 158 84" fill="#74C69D"/>
+    <!-- Lower Terracotta Fold -->
+    <path d="M144 124 H170 C170 150.51 148.51 172 122 172 H98 V146 H122 C134.15 146 144 136.15 144 124 Z" fill="#C85A32"/>
+    <!-- Center Coin -->
+    <circle cx="118" cy="120" r="15" fill="#D99B26"/>
+    <circle cx="118" cy="120" r="5" fill="#1C1917"/>
+  </g>
+
+  <!-- Right Wordmark Zone (Starts cleanly at x=232, well clear of x=196) -->
+  <g id="Lockup-Typography">
+    <text x="232" y="74" fill="#2E5A44" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700" letter-spacing="1.5">BUKU SAKU KEUANGAN PRIBADI</text>
+    <text x="232" y="132" fill="#1C1917" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="44" font-weight="800" letter-spacing="-1">DompetHarian</text>
+    <text x="232" y="176" fill="#6B635B" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="17" font-weight="500">Catatan jujur rupiah harianmu — tenang tanpa sinyal.</text>
+  </g>
+</svg>

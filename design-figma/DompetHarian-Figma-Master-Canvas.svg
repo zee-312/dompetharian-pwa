@@ -1,0 +1,739 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3880" height="1960" viewBox="0 0 3880 1960" fill="none">
+  <defs>
+    <linearGradient id="bgCanvasGrad" x1="0" y1="0" x2="3880" y2="1960" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EDE6D8"/>
+      <stop offset="100%" stop-color="#E4DCCB"/>
+    </linearGradient>
+    <linearGradient id="leatherCardGrad" x1="0" y1="0" x2="320" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#23392D"/>
+      <stop offset="55%" stop-color="#1C2E24"/>
+      <stop offset="100%" stop-color="#17231C"/>
+    </linearGradient>
+    <linearGradient id="terracottaGrad" x1="0" y1="0" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D96B43"/>
+      <stop offset="100%" stop-color="#B84A24"/>
+    </linearGradient>
+    <linearGradient id="sageGrad" x1="0" y1="0" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B7357"/>
+      <stop offset="100%" stop-color="#244B37"/>
+    </linearGradient>
+    <linearGradient id="coinGrad" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F2B84B"/>
+      <stop offset="100%" stop-color="#D48B1C"/>
+    </linearGradient>
+    <linearGradient id="warmPaperGrad" x1="0" y1="0" x2="0" y2="800" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F5EFE6"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#1C1917" flood-opacity="0.08"/>
+    </filter>
+    <filter id="cardShadow" x="-8%" y="-8%" width="116%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#1C1917" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- Master Figma Presentation Canvas Background -->
+  <rect id="Canvas-Backdrop" width="3880" height="1960" fill="url(#bgCanvasGrad)"/>
+
+  <!-- Header Banner on Canvas -->
+  <g id="Section-Header">
+    <rect x="80" y="40" width="3720" height="88" rx="22" fill="#1C1917"/>
+    <!-- Mini Emblem in Header -->
+    <g id="Header-Mini-Emblem" transform="translate(108, 60)">
+      <rect width="48" height="48" rx="14" fill="#23392D"/>
+      <rect x="10" y="10" width="8" height="28" rx="4" fill="#FAF7F2"/>
+      <path d="M21 10 H27 C34 10 39 15 39 22 H31 C31 18 29 16 26 16 H21 V10 Z" fill="#52B788"/>
+      <path d="M31 26 H39 C39 33 34 38 27 38 H21 V32 H26 C29 32 31 30 31 26 Z" fill="#C85A32"/>
+      <circle cx="25" cy="24" r="4.5" fill="#D99B26"/>
+    </g>
+    <text x="176" y="78" fill="#FAF7F2" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="21" font-weight="800">DompetHarian — Warm Tactile Editorial Design System &amp; Android UI Kit</text>
+    <text x="176" y="106" fill="#B8AFA3" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="14" font-weight="500">Filosofi buku catatan saku &amp; dompet kulit: hangat, jujur, minimalis, dan terasa manusiawi (Offline-First Android 360x800)</text>
+    <rect x="3500" y="62" width="272" height="44" rx="22" fill="#2E5A44"/>
+    <text x="3636" y="89" text-anchor="middle" fill="#FAF7F2" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="13" font-weight="700">Figma Ready · Vector Layers</text>
+  </g>
+
+  <!-- ======================================================================= -->
+  <!-- FRAME 01: BRAND IDENTITY & LOGO EXPLORATION (1120 x 800)                -->
+  <!-- ======================================================================= -->
+  <g id="Frame-01-Brand-Logo-Identity" transform="translate(80, 164)" filter="url(#softShadow)">
+    <rect width="1120" height="800" rx="28" fill="#FAF7F2" stroke="#E5DEC9" stroke-width="2"/>
+    
+    <!-- Frame Header -->
+    <text x="48" y="52" fill="#8C7E6A" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700" letter-spacing="1.5">01 / BRAND IDENTITY &amp; LOGO SYSTEM</text>
+    <text x="48" y="88" fill="#1C1917" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="26" font-weight="800">Konsep Logo: Lipatan Dompet 'D' + Koin &amp; Tunas</text>
+    <text x="48" y="118" fill="#6B635B" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="14">Siluet lipatan dompet origami dengan ruang negatif bersih yang membentuk huruf "D", menjaga koin rupiah dan menumbuhkan kebiasaan baik.</text>
+
+    <!-- Card 1A: Primary Logo Mark on Warm Paper -->
+    <g id="Logo-Card-Primary-Light" transform="translate(48, 148)">
+      <rect width="320" height="340" rx="24" fill="#F3EDE2" stroke="#E5DEC9" stroke-width="1.5"/>
+      <!-- Subtle Construction Grid -->
+      <rect x="76" y="44" width="168" height="168" rx="38" fill="#FAF7F2" stroke="#D8CEBE" stroke-width="1.5"/>
+
+      <!-- Clean Negative-Space Origami 'D' Mark -->
+      <g id="Logo-Mark-Origami-D" transform="translate(76, 44)">
+        <!-- 1. Left Stitched Spine -->
+        <rect x="34" y="28" width="24" height="112" rx="11" fill="#1C1917"/>
+        <line x1="46" y1="40" x2="46" y2="128" stroke="#FAF7F2" stroke-opacity="0.4" stroke-width="2" stroke-dasharray="4 5" stroke-linecap="round"/>
+        <!-- 2. Upper Sage Leaf Fold -->
+        <path d="M66 28 H94 C124.928 28 150 53.072 150 84 H122 C122 68.536 109.464 56 94 56 H66 V28 Z" fill="#2E5A44"/>
+        <path d="M128 36 C136 24 150 22 156 24 C154 33 147 42 136 45" fill="#3B7357"/>
+        <!-- 3. Lower Terracotta Pocket Fold -->
+        <path d="M122 92 H150 C150 122.928 124.928 148 94 148 H66 V120 H94 C109.464 120 122 107.464 122 92 Z" fill="#C85A32"/>
+        <circle cx="136" cy="106" r="3" fill="#FAF7F2"/>
+        <!-- 4. Center Marigold Coin in Counter -->
+        <circle cx="88" cy="88" r="16" fill="#D99B26"/>
+        <circle cx="88" cy="88" r="11" stroke="#FAF7F2" stroke-opacity="0.6" stroke-width="1.5"/>
+        <circle cx="88" cy="88" r="4" fill="#1C1917"/>
+      </g>
+
+      <text x="160" y="264" text-anchor="middle" fill="#1C1917" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="16" font-weight="800">1A · Primary Origami Mark</text>
+      <text x="160" y="290" text-anchor="middle" fill="#6B635B" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="13">Lipatan 'D' + Koin Rupiah + Tunas Sage</text>
+      <text x="160" y="312" text-anchor="middle" fill="#8C7E6A" font-family="JetBrains Mono, monospace" font-size="11">Ruang negatif bersih · Tanpa tumpang tindih</text>
+    </g>
+
+    <!-- Card 1B: Android Adaptive Squircle Icon (Dark Tactile Leather) -->
+    <g id="Logo-Card-Android-App-Icon" transform="translate(396, 148)">
+      <rect width="320" height="340" rx="24" fill="#1C1917"/>
+      <!-- Android Squircle Icon 168x168 -->
+      <g id="Android-Adaptive-Icon" transform="translate(76, 44)">
+        <rect width="168" height="168" rx="42" fill="url(#leatherCardGrad)" stroke="#3B7357" stroke-width="2"/>
+        <rect x="9" y="9" width="150" height="150" rx="34" stroke="#FAF7F2" stroke-opacity="0.16" stroke-width="1.2" stroke-dasharray="5 5"/>
+        <!-- 1. Left Spine -->
+        <rect x="34" y="28" width="24" height="112" rx="11" fill="#FAF7F2"/>
+        <line x1="46" y1="40" x2="46" y2="128" stroke="#1C1917" stroke-opacity="0.35" stroke-width="2" stroke-dasharray="4 5" stroke-linecap="round"/>
+        <!-- 2. Upper Sage Fold -->
+        <path d="M66 28 H94 C124.928 28 150 53.072 150 84 H122 C122 68.536 109.464 56 94 56 H66 V28 Z" fill="#52B788"/>
+        <path d="M128 36 C136 24 150 22 156 24 C154 33 147 42 136 45" fill="#74C69D"/>
+        <!-- 3. Lower Terracotta Fold -->
+        <path d="M122 92 H150 C150 122.928 124.928 148 94 148 H66 V120 H94 C109.464 120 122 107.464 122 92 Z" fill="#D96B43"/>
+        <circle cx="136" cy="106" r="3" fill="#FAF7F2"/>
+        <!-- 4. Center Coin -->
+        <circle cx="88" cy="88" r="16" fill="#F2B84B"/>
+        <circle cx="88" cy="88" r="5" fill="#17231C"/>
+      </g>
+      <text x="160" y="264" text-anchor="middle" fill="#FAF7F2" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="16" font-weight="800">1B · Ikon Aplikasi Android (PWA)</text>
+      <text x="160" y="290" text-anchor="middle" fill="#B8AFA3" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="13">Maskable Squircle · Kontras Tinggi di HP</text>
+      <text x="160" y="312" text-anchor="middle" fill="#74C69D" font-family="JetBrains Mono, monospace" font-size="11">512x512px · Safe Zone Terjaga</text>
+    </g>
+
+    <!-- Card 1C: Minimalist Editorial Ink Stamp / Line Mark -->
+    <g id="Logo-Card-Monogram-Stamp" transform="translate(744, 148)">
+      <rect width="328" height="340" rx="24" fill="#F3EDE2" stroke="#E5DEC9" stroke-width="1.5"/>
+      <g id="Editorial-Stamp-Mark" transform="translate(80, 44)">
+        <rect width="168" height="168" rx="42" fill="#FAF7F2" stroke="#1C1917" stroke-width="3"/>
+        <rect x="36" y="30" width="22" height="108" rx="10" stroke="#1C1917" stroke-width="4"/>
+        <path d="M68 32 H94 C122 32 144 54 144 84 C144 114 122 136 94 136 H68" stroke="#1C1917" stroke-width="5" stroke-linecap="round"/>
+        <circle cx="90" cy="84" r="15" fill="#D99B26" stroke="#1C1917" stroke-width="3.5"/>
+      </g>
+      <text x="164" y="264" text-anchor="middle" fill="#1C1917" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="16" font-weight="800">1C · Cap Tinta Minimalis (Stamp)</text>
+      <text x="164" y="290" text-anchor="middle" fill="#6B635B" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="13">Untuk Header Jurnal, Struk &amp; Watermark</text>
+      <text x="164" y="312" text-anchor="middle" fill="#8C7E6A" font-family="JetBrains Mono, monospace" font-size="11">Monokrom / 2-Nada · Cetak &amp; Layar</text>
+    </g>
+
+    <!-- Horizontal Brand Lockup & Philosophy Box -->
+    <g id="Brand-Lockup-Showcase" transform="translate(48, 516)">
+      <rect width="1024" height="236" rx="24" fill="#F3EDE2" stroke="#E5DEC9" stroke-width="1.5"/>
+      
+      <!-- Left Emblem Box (x=36..176, y=48..188) -->
+      <g id="Showcase-Emblem" transform="translate(36, 48)">
+        <rect width="140" height="140" rx="34" fill="#1C1917"/>
+        <rect x="28" y="24" width="20" height="92" rx="9" fill="#FAF7F2"/>
+        <line x1="38" y1="34" x2="38" y2="106" stroke="#1C1917" stroke-opacity="0.35" stroke-width="1.5" stroke-dasharray="4 4" stroke-linecap="round"/>
+        <path d="M56 24 H78 C102 24 122 44 122 68 H98 C98 56 89 46 78 46 H56 V24 Z" fill="#3B7357"/>
+        <path d="M98 74 H122 C122 98 102 118 78 118 H56 V96 H78 C89 96 98 86 98 74 Z" fill="#C85A32"/>
+        <circle cx="74" cy="71" r="13" fill="#D99B26"/>
+        <circle cx="74" cy="71" r="4" fill="#1C1917"/>
+      </g>
+
+      <!-- Single Unified Wordmark (No multi-node collision!) -->
+      <text x="208" y="64" fill="#2E5A44" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700" letter-spacing="1.4">IDENTITAS UTAMA DOMPETHARIAN</text>
+      <text x="208" y="114" fill="#1C1917" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="42" font-weight="800" letter-spacing="-0.8">DompetHarian</text>
+      <text x="208" y="148" fill="#6B635B" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="15" font-weight="500">"Catatan jujur rupiah harianmu — tenang saat tanpa sinyal, rapi saat tersinkron."</text>
+
+      <!-- 3 Brand Pillars (Generous width and spacing) -->
+      <g transform="translate(208, 168)">
+        <rect width="240" height="40" rx="20" fill="#FAF7F2" stroke="#D8CEBE"/>
+        <circle cx="24" cy="20" r="6" fill="#2E5A44"/>
+        <text x="40" y="25" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Hangat seperti Buku Saku</text>
+      </g>
+      <g transform="translate(464, 168)">
+        <rect width="250" height="40" rx="20" fill="#FAF7F2" stroke="#D8CEBE"/>
+        <circle cx="24" cy="20" r="6" fill="#C85A32"/>
+        <text x="40" y="25" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Jujur &amp; Instan Tanpa Sinyal</text>
+      </g>
+      <g transform="translate(730, 168)">
+        <rect width="258" height="40" rx="20" fill="#FAF7F2" stroke="#D8CEBE"/>
+        <circle cx="24" cy="20" r="6" fill="#D99B26"/>
+        <text x="40" y="25" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Privasi di Drive Pribadimu</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ======================================================================= -->
+  <!-- FRAME 02: DESIGN TOKENS & TACTILE COMPONENT KIT (1120 x 860)            -->
+  <!-- ======================================================================= -->
+  <g id="Frame-02-Design-System-Tokens" transform="translate(80, 1012)" filter="url(#softShadow)">
+    <rect width="1120" height="860" rx="28" fill="#FAF7F2" stroke="#E5DEC9" stroke-width="2"/>
+
+    <text x="48" y="52" fill="#8C7E6A" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700" letter-spacing="1.5">02 / WARM TACTILE EDITORIAL TOKENS &amp; COMPONENTS</text>
+    <text x="48" y="88" fill="#1C1917" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="26" font-weight="800">Palet Warna, Tipografi Humanis &amp; Komponen Taktil</text>
+
+    <!-- Color Swatches Row -->
+    <g id="Color-Palette-Swatches" transform="translate(48, 120)">
+      <g transform="translate(0, 0)">
+        <rect width="132" height="128" rx="18" fill="#FAF7F2" stroke="#D8CEBE" stroke-width="1.5"/>
+        <rect x="12" y="12" width="108" height="58" rx="10" fill="#FAF7F2" stroke="#E5DEC9"/>
+        <text x="14" y="92" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Kertas Gandum</text>
+        <text x="14" y="112" fill="#6B635B" font-family="JetBrains Mono, monospace" font-size="12">#FAF7F2</text>
+      </g>
+      <g transform="translate(148, 0)">
+        <rect width="132" height="128" rx="18" fill="#FAF7F2" stroke="#D8CEBE" stroke-width="1.5"/>
+        <rect x="12" y="12" width="108" height="58" rx="10" fill="#F3EDE2"/>
+        <text x="14" y="92" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Kanvas Saku</text>
+        <text x="14" y="112" fill="#6B635B" font-family="JetBrains Mono, monospace" font-size="12">#F3EDE2</text>
+      </g>
+      <g transform="translate(296, 0)">
+        <rect width="132" height="128" rx="18" fill="#FAF7F2" stroke="#D8CEBE" stroke-width="1.5"/>
+        <rect x="12" y="12" width="108" height="58" rx="10" fill="#1C1917"/>
+        <text x="14" y="92" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Tinta Espresso</text>
+        <text x="14" y="112" fill="#6B635B" font-family="JetBrains Mono, monospace" font-size="12">#1C1917</text>
+      </g>
+      <g transform="translate(444, 0)">
+        <rect width="132" height="128" rx="18" fill="#FAF7F2" stroke="#D8CEBE" stroke-width="1.5"/>
+        <rect x="12" y="12" width="108" height="58" rx="10" fill="#6B635B"/>
+        <text x="14" y="92" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Abu Batu</text>
+        <text x="14" y="112" fill="#6B635B" font-family="JetBrains Mono, monospace" font-size="12">#6B635B</text>
+      </g>
+      <g transform="translate(592, 0)">
+        <rect width="132" height="128" rx="18" fill="#FAF7F2" stroke="#D8CEBE" stroke-width="1.5"/>
+        <rect x="12" y="12" width="108" height="58" rx="10" fill="#2E5A44"/>
+        <text x="14" y="92" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Hijau Sage</text>
+        <text x="14" y="112" fill="#6B635B" font-family="JetBrains Mono, monospace" font-size="12">#2E5A44</text>
+      </g>
+      <g transform="translate(740, 0)">
+        <rect width="132" height="128" rx="18" fill="#FAF7F2" stroke="#D8CEBE" stroke-width="1.5"/>
+        <rect x="12" y="12" width="108" height="58" rx="10" fill="#C85A32"/>
+        <text x="14" y="92" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Terracotta</text>
+        <text x="14" y="112" fill="#6B635B" font-family="JetBrains Mono, monospace" font-size="12">#C85A32</text>
+      </g>
+      <g transform="translate(888, 0)">
+        <rect width="136" height="128" rx="18" fill="#FAF7F2" stroke="#D8CEBE" stroke-width="1.5"/>
+        <rect x="12" y="12" width="112" height="58" rx="10" fill="#D99B26"/>
+        <text x="14" y="92" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Koin Kunyit</text>
+        <text x="14" y="112" fill="#6B635B" font-family="JetBrains Mono, monospace" font-size="12">#D99B26</text>
+      </g>
+    </g>
+
+    <!-- Typography & Tone Box -->
+    <g id="Typography-System" transform="translate(48, 272)">
+      <rect width="496" height="540" rx="24" fill="#F3EDE2" stroke="#E5DEC9" stroke-width="1.5"/>
+      <text x="28" y="40" fill="#8C7E6A" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">TYPOGRAPHY PAIRING</text>
+      
+      <text x="28" y="84" fill="#1C1917" font-family="Georgia, Fraunces, serif" font-size="30" font-weight="700">Rp 4.285.000</text>
+      <text x="28" y="112" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="12.5">Display Nominal &amp; Sapaan — Fraunces / Serif Humanis (28–32px)</text>
+      <line x1="28" y1="130" x2="468" y2="130" stroke="#E5DEC9"/>
+
+      <text x="28" y="168" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="19" font-weight="800">Selamat sore, Jordan</text>
+      <text x="28" y="196" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="12.5">UI Heading &amp; Navigasi — Plus Jakarta Sans Bold (16–20px)</text>
+      <line x1="28" y1="214" x2="468" y2="214" stroke="#E5DEC9"/>
+
+      <text x="28" y="250" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="15" font-weight="600">Nasi Padang Sederhana · Makan Siang</text>
+      <text x="28" y="276" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="12.5">Body &amp; Jurnal Transaksi — Plus Jakarta Sans Medium (14–15px)</text>
+      <line x1="28" y1="294" x2="468" y2="294" stroke="#E5DEC9"/>
+
+      <text x="28" y="330" fill="#C85A32" font-family="JetBrains Mono, monospace" font-size="16" font-weight="700">- Rp 38.000</text>
+      <text x="200" y="330" fill="#2E5A44" font-family="JetBrains Mono, monospace" font-size="16" font-weight="700">+ Rp 2.500.000</text>
+      <text x="28" y="356" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="12.5">Angka Mutasi — JetBrains Mono / Tabular Numerals (Anti-geser)</text>
+
+      <!-- Humanly Microcopy Principles -->
+      <rect x="28" y="382" width="440" height="132" rx="16" fill="#FAF7F2" stroke="#D8CEBE"/>
+      <text x="46" y="410" fill="#2E5A44" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Prinsip Bahasa "Humanly Indonesian":</text>
+      <text x="46" y="436" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="12.5">Hindari: "ERR_SYNC_OFFLINE: 3 records queued in IndexedDB"</text>
+      <text x="46" y="464" fill="#2E5A44" font-family="Plus Jakarta Sans, sans-serif" font-size="12.5" font-weight="700">Gunakan: "Tenang, 3 catatanmu sudah aman di HP. Akan</text>
+      <text x="46" y="486" fill="#2E5A44" font-family="Plus Jakarta Sans, sans-serif" font-size="12.5" font-weight="700">otomatis disinkronkan begitu sinyal kembali."</text>
+    </g>
+
+    <!-- Tactile UI Components Showcase -->
+    <g id="Component-Library-Showcase" transform="translate(568, 272)">
+      <rect width="504" height="540" rx="24" fill="#F3EDE2" stroke="#E5DEC9" stroke-width="1.5"/>
+      <text x="28" y="40" fill="#8C7E6A" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">REUSABLE TACTILE COMPONENTS</text>
+
+      <!-- Component 1: Honest Offline Status Pill -->
+      <g transform="translate(28, 60)">
+        <rect width="448" height="56" rx="16" fill="#EDF3EF" stroke="#B7D1C2" stroke-width="1.5"/>
+        <circle cx="26" cy="28" r="7" fill="#2E5A44"/>
+        <text x="44" y="24" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Mode Tanpa Sinyal Aktif · Semua Catatan Aman di HP</text>
+        <text x="44" y="44" fill="#2E5A44" font-family="Plus Jakarta Sans, sans-serif" font-size="12">3 catatan menunggu sinyal internet untuk dicadangkan</text>
+      </g>
+
+      <!-- Component 2: Organic Category Pills -->
+      <g transform="translate(28, 134)">
+        <text x="0" y="16" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="12" font-weight="700">Kategori Harian (Touch Target &gt;= 48dp):</text>
+        <rect x="0" y="28" width="140" height="44" rx="22" fill="#1C1917"/>
+        <circle cx="24" cy="50" r="6" fill="#D99B26"/>
+        <text x="80" y="55" text-anchor="middle" fill="#FAF7F2" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Makan &amp; Kopi</text>
+
+        <rect x="152" y="28" width="140" height="44" rx="22" fill="#FAF7F2" stroke="#D8CEBE" stroke-width="1.5"/>
+        <circle cx="176" cy="50" r="6" fill="#C85A32"/>
+        <text x="232" y="55" text-anchor="middle" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="600">Transportasi</text>
+
+        <rect x="304" y="28" width="144" height="44" rx="22" fill="#FAF7F2" stroke="#D8CEBE" stroke-width="1.5"/>
+        <circle cx="328" cy="50" r="6" fill="#2E5A44"/>
+        <text x="386" y="55" text-anchor="middle" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="600">Belanja Dapur</text>
+      </g>
+
+      <!-- Component 3: Journal Transaction Row (Clean non-overlapping columns) -->
+      <g transform="translate(28, 228)">
+        <text x="0" y="16" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="12" font-weight="700">Kartu Baris Jurnal Transaksi:</text>
+        <rect x="0" y="28" width="448" height="84" rx="20" fill="#FAF7F2" stroke="#E5DEC9" stroke-width="1.5"/>
+        <!-- Left Icon Box -->
+        <rect x="16" y="46" width="48" height="48" rx="14" fill="#F6E7E1"/>
+        <circle cx="40" cy="70" r="10" fill="#C85A32"/>
+        <!-- Middle Text -->
+        <text x="78" y="64" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="15" font-weight="700">Kopi Susu Gula Aren</text>
+        <text x="78" y="88" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="12">Warung Kopi Tuku · QRIS · Struk di Drive</text>
+        <!-- Right Amount & Status -->
+        <text x="430" y="62" text-anchor="end" fill="#C85A32" font-family="JetBrains Mono, monospace" font-size="15" font-weight="700">-Rp 22.000</text>
+        <rect x="344" y="72" width="86" height="24" rx="12" fill="#EDF3EF"/>
+        <text x="387" y="88" text-anchor="middle" fill="#2E5A44" font-family="Plus Jakarta Sans, sans-serif" font-size="11" font-weight="700">Tersimpan</text>
+      </g>
+
+      <!-- Component 4: Tactile Primary CTA Button -->
+      <g transform="translate(28, 360)">
+        <text x="0" y="16" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="12" font-weight="700">Tombol Utama Ibu Jari (Android Bottom Action):</text>
+        <rect x="0" y="28" width="448" height="58" rx="20" fill="#1C1917"/>
+        <rect x="6" y="34" width="436" height="46" rx="16" stroke="#FAF7F2" stroke-opacity="0.2" stroke-dasharray="4 4"/>
+        <text x="224" y="63" text-anchor="middle" fill="#FAF7F2" font-family="Plus Jakarta Sans, sans-serif" font-size="15" font-weight="700">+ Catat Pengeluaran atau Pemasukan</text>
+      </g>
+
+      <!-- Component 5: Privacy Assurance Chip -->
+      <g transform="translate(28, 460)">
+        <rect width="448" height="54" rx="16" fill="#FDF8EE" stroke="#EED9A8" stroke-width="1.5"/>
+        <circle cx="26" cy="27" r="6" fill="#D99B26"/>
+        <text x="42" y="32" fill="#8C5E14" font-family="Plus Jakarta Sans, sans-serif" font-size="12.5" font-weight="700">Foto struk langsung ke Google Drive pribadimu (drive.file)</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ======================================================================= -->
+  <!-- FRAME 03: SCREEN 1 - BERANDA / HOME JOURNAL (360 x 800)                 -->
+  <!-- ======================================================================= -->
+  <g id="Frame-03-Screen-Beranda-360x800" transform="translate(1260, 164)" filter="url(#softShadow)">
+    <rect width="360" height="800" rx="36" fill="url(#warmPaperGrad)" stroke="#D8CEBE" stroke-width="3"/>
+    
+    <!-- Android Status Bar -->
+    <text x="28" y="30" fill="#1C1917" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">18:30</text>
+    <rect x="244" y="16" width="92" height="22" rx="11" fill="#EDF3EF"/>
+    <circle cx="258" cy="27" r="4" fill="#2E5A44"/>
+    <text x="296" y="31" text-anchor="middle" fill="#2E5A44" font-family="Plus Jakarta Sans, sans-serif" font-size="10" font-weight="700">Offline Siap</text>
+
+    <!-- Top Brand & Human Greeting (Clean 24px vertical baseline separation) -->
+    <g id="Beranda-Greeting" transform="translate(20, 50)">
+      <rect width="44" height="44" rx="14" fill="#1C1917"/>
+      <rect x="10" y="10" width="7" height="24" rx="3.5" fill="#FAF7F2"/>
+      <path d="M20 10 H26 C31 10 35 14 35 19 H29 C29 16 27 15 25 15 H20 V10 Z" fill="#52B788"/>
+      <path d="M29 25 H35 C35 30 31 34 26 34 H20 V29 H25 C27 29 29 27 29 25 Z" fill="#C85A32"/>
+      <circle cx="24" cy="22" r="4" fill="#D99B26"/>
+      
+      <text x="56" y="16" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="11.5" font-weight="600">Jumat, 17 Oktober · Sore yang tenang</text>
+      <text x="56" y="40" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="18" font-weight="800">Halo, Jordan</text>
+    </g>
+
+    <!-- Tactile Leather Wallet Card ("Saku Bulan Oktober") -->
+    <g id="Hero-Leather-Wallet-Card" transform="translate(20, 110)" filter="url(#cardShadow)">
+      <rect width="320" height="196" rx="26" fill="url(#leatherCardGrad)"/>
+      <rect x="10" y="10" width="300" height="176" rx="20" stroke="#FAF7F2" stroke-opacity="0.18" stroke-width="1.2" stroke-dasharray="5 5"/>
+      
+      <text x="26" y="38" fill="#B7D1C2" font-family="Plus Jakarta Sans, sans-serif" font-size="11" font-weight="700" letter-spacing="0.8">SAKU BULAN OKTOBER 2026</text>
+      <rect x="210" y="22" width="86" height="24" rx="12" fill="#2E5A44"/>
+      <text x="253" y="38" text-anchor="middle" fill="#FAF7F2" font-family="Plus Jakarta Sans, sans-serif" font-size="10.5" font-weight="700">Aman di HP</text>
+
+      <text x="26" y="76" fill="#FAF7F2" font-family="Georgia, Fraunces, serif" font-size="28" font-weight="700">Rp 3.420.000</text>
+      <text x="26" y="98" fill="#B7D1C2" font-family="Plus Jakarta Sans, sans-serif" font-size="11.5">Sisa ruang saku dari pemasukan bulan ini</text>
+
+      <line x1="26" y1="116" x2="294" y2="116" stroke="#FAF7F2" stroke-opacity="0.14"/>
+
+      <g transform="translate(26, 130)">
+        <text x="0" y="14" fill="#B7D1C2" font-family="Plus Jakarta Sans, sans-serif" font-size="11">Pemasukan</text>
+        <text x="0" y="36" fill="#74C69D" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700">+Rp 6.500.000</text>
+
+        <line x1="136" y1="2" x2="136" y2="42" stroke="#FAF7F2" stroke-opacity="0.14"/>
+
+        <text x="152" y="14" fill="#F4C2B2" font-family="Plus Jakarta Sans, sans-serif" font-size="11">Pengeluaran (47%)</text>
+        <text x="152" y="36" fill="#F29C7E" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700">-Rp 3.080.000</text>
+      </g>
+    </g>
+
+    <!-- Honest Offline Sync Banner -->
+    <g transform="translate(20, 320)">
+      <rect width="320" height="50" rx="16" fill="#FDF8EE" stroke="#EED9A8" stroke-width="1.5"/>
+      <circle cx="22" cy="25" r="6" fill="#D99B26"/>
+      <text x="36" y="21" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="12" font-weight="700">2 catatan baru tersimpan aman di HP</text>
+      <text x="36" y="39" fill="#8C5E14" font-family="Plus Jakarta Sans, sans-serif" font-size="11">Otomatis disinkronkan saat sinyal kembali</text>
+    </g>
+
+    <!-- Spending Rhythm & Category Breakdown -->
+    <g transform="translate(20, 384)">
+      <rect width="320" height="100" rx="20" fill="#F3EDE2" stroke="#E5DEC9" stroke-width="1.5"/>
+      <text x="18" y="26" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="12.5" font-weight="700">Ritme Pengeluaran Terbesar</text>
+      <text x="302" y="26" text-anchor="end" fill="#2E5A44" font-family="Plus Jakarta Sans, sans-serif" font-size="11.5" font-weight="700">Laporan -&gt;</text>
+
+      <rect x="18" y="40" width="284" height="12" rx="6" fill="#E5DEC9"/>
+      <rect x="18" y="40" width="128" height="12" rx="6" fill="#C85A32"/>
+      <rect x="148" y="40" width="76" height="12" rx="4" fill="#D99B26"/>
+      <rect x="226" y="40" width="52" height="12" rx="4" fill="#2E5A44"/>
+
+      <circle cx="24" cy="72" r="5" fill="#C85A32"/>
+      <text x="34" y="76" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="11.5" font-weight="600">Makan 45%</text>
+      <circle cx="122" cy="72" r="5" fill="#D99B26"/>
+      <text x="132" y="76" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="11.5" font-weight="600">Dapur 27%</text>
+      <circle cx="220" cy="72" r="5" fill="#2E5A44"/>
+      <text x="230" y="76" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="11.5" font-weight="600">Transport 18%</text>
+    </g>
+
+    <!-- Today's Journal Section -->
+    <text x="24" y="510" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="11" font-weight="700" letter-spacing="0.8">HARI INI · JUMAT 17 OKT</text>
+    <text x="336" y="510" text-anchor="end" fill="#6B635B" font-family="JetBrains Mono, monospace" font-size="11.5" font-weight="700">-Rp 59.000</text>
+
+    <!-- Transaction Item 1 (Strict non-overlapping 2-column grid) -->
+    <g id="Beranda-Tx-1" transform="translate(20, 522)">
+      <rect width="320" height="72" rx="18" fill="#FAF7F2" stroke="#E5DEC9" stroke-width="1.5"/>
+      <rect x="12" y="16" width="40" height="40" rx="12" fill="#F6E7E1"/>
+      <circle cx="32" cy="36" r="8" fill="#C85A32"/>
+      <text x="64" y="31" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Nasi Padang Ayam</text>
+      <text x="64" y="51" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="11">RM Sederhana · Tunai</text>
+      <text x="306" y="31" text-anchor="end" fill="#C85A32" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700">-Rp 35.000</text>
+      <text x="306" y="51" text-anchor="end" fill="#8C5E14" font-family="Plus Jakarta Sans, sans-serif" font-size="10.5" font-weight="600">Menunggu sinyal</text>
+    </g>
+
+    <!-- Transaction Item 2 -->
+    <g id="Beranda-Tx-2" transform="translate(20, 604)">
+      <rect width="320" height="72" rx="18" fill="#FAF7F2" stroke="#E5DEC9" stroke-width="1.5"/>
+      <rect x="12" y="16" width="40" height="40" rx="12" fill="#FDF3DC"/>
+      <circle cx="32" cy="36" r="8" fill="#D99B26"/>
+      <text x="64" y="31" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Kopi Susu Aren</text>
+      <text x="64" y="51" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="11">QRIS · Ada Struk Drive</text>
+      <text x="306" y="31" text-anchor="end" fill="#C85A32" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700">-Rp 24.000</text>
+      <text x="306" y="51" text-anchor="end" fill="#2E5A44" font-family="Plus Jakarta Sans, sans-serif" font-size="10.5" font-weight="600">Tersinkron</text>
+    </g>
+
+    <!-- Bottom Navigation Bar -->
+    <g id="Bottom-Navigation-Bar" transform="translate(16, 694)">
+      <rect width="328" height="86" rx="26" fill="#1C1917"/>
+      <text x="48" y="48" text-anchor="middle" fill="#FAF7F2" font-family="Plus Jakarta Sans, sans-serif" font-size="11" font-weight="700">Beranda</text>
+      <text x="112" y="48" text-anchor="middle" fill="#B8AFA3" font-family="Plus Jakarta Sans, sans-serif" font-size="11" font-weight="500">Riwayat</text>
+
+      <rect x="152" y="16" width="104" height="54" rx="18" fill="url(#terracottaGrad)"/>
+      <text x="204" y="48" text-anchor="middle" fill="#FAF7F2" font-family="Plus Jakarta Sans, sans-serif" font-size="13.5" font-weight="800">+ Catat</text>
+
+      <text x="292" y="48" text-anchor="middle" fill="#B8AFA3" font-family="Plus Jakarta Sans, sans-serif" font-size="11" font-weight="500">Saku</text>
+    </g>
+  </g>
+
+  <!-- ======================================================================= -->
+  <!-- FRAME 04: SCREEN 2 - CATAT CEPAT / ADD TRANSACTION (360 x 800)          -->
+  <!-- ======================================================================= -->
+  <g id="Frame-04-Screen-Catat-Transaksi-360x800" transform="translate(1680, 164)" filter="url(#softShadow)">
+    <rect width="360" height="800" rx="36" fill="url(#warmPaperGrad)" stroke="#D8CEBE" stroke-width="3"/>
+
+    <!-- Top Bar (Plenty of horizontal room between Batal, Title, and Instan pill) -->
+    <text x="24" y="46" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Batal</text>
+    <text x="172" y="46" text-anchor="middle" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="15" font-weight="800">Catat di Buku Saku</text>
+    <rect x="268" y="28" width="72" height="26" rx="13" fill="#EDF3EF"/>
+    <text x="304" y="45" text-anchor="middle" fill="#2E5A44" font-family="Plus Jakarta Sans, sans-serif" font-size="11" font-weight="700">Instan</text>
+
+    <!-- Type Toggle (Pengeluaran vs Pemasukan) -->
+    <g transform="translate(20, 70)">
+      <rect width="320" height="50" rx="25" fill="#EBE3D5"/>
+      <rect x="4" y="4" width="156" height="42" rx="21" fill="#C85A32"/>
+      <text x="82" y="30" text-anchor="middle" fill="#FAF7F2" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Pengeluaran</text>
+      <text x="240" y="30" text-anchor="middle" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Pemasukan</text>
+    </g>
+
+    <!-- Notepad Nominal Card -->
+    <g transform="translate(20, 136)">
+      <rect width="320" height="142" rx="24" fill="#F3EDE2" stroke="#D8CEBE" stroke-width="1.5"/>
+      <text x="24" y="32" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="11" font-weight="700" letter-spacing="0.8">BERAPA RUPIAH HARI INI?</text>
+      <text x="24" y="76" fill="#1C1917" font-family="Georgia, Fraunces, serif" font-size="34" font-weight="700">Rp 42.000</text>
+      <line x1="24" y1="90" x2="296" y2="90" stroke="#C85A32" stroke-width="2"/>
+
+      <g transform="translate(24, 102)">
+        <rect width="62" height="28" rx="14" fill="#FAF7F2" stroke="#D8CEBE"/>
+        <text x="31" y="18" text-anchor="middle" fill="#1C1917" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">+10rb</text>
+
+        <rect x="70" y="0" width="62" height="28" rx="14" fill="#FAF7F2" stroke="#D8CEBE"/>
+        <text x="101" y="18" text-anchor="middle" fill="#1C1917" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">+25rb</text>
+
+        <rect x="140" y="0" width="62" height="28" rx="14" fill="#FAF7F2" stroke="#D8CEBE"/>
+        <text x="171" y="18" text-anchor="middle" fill="#1C1917" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">+50rb</text>
+
+        <rect x="210" y="0" width="66" height="28" rx="14" fill="#FAF7F2" stroke="#D8CEBE"/>
+        <text x="243" y="18" text-anchor="middle" fill="#1C1917" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">+100rb</text>
+      </g>
+    </g>
+
+    <!-- Scan Struk Shortcut Banner -->
+    <g transform="translate(20, 294)">
+      <rect width="320" height="52" rx="18" fill="#EDF3EF" stroke="#B7D1C2" stroke-width="1.5"/>
+      <circle cx="24" cy="26" r="6" fill="#2E5A44"/>
+      <text x="40" y="31" fill="#2E5A44" font-family="Plus Jakarta Sans, sans-serif" font-size="12.5" font-weight="700">Malas ketik? Foto struk belanja (OCR di HP)</text>
+    </g>
+
+    <!-- Description Field -->
+    <g transform="translate(20, 364)">
+      <text x="4" y="16" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="11" font-weight="700" letter-spacing="0.8">UNTUK KEPERLUAN APA?</text>
+      <rect x="0" y="26" width="320" height="52" rx="16" fill="#FAF7F2" stroke="#D8CEBE" stroke-width="1.5"/>
+      <text x="18" y="57" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="13.5" font-weight="600">Makan siang soto betawi &amp; es teh</text>
+    </g>
+
+    <!-- Category Selector Chips -->
+    <g transform="translate(20, 458)">
+      <text x="4" y="16" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="11" font-weight="700" letter-spacing="0.8">PILIH KATEGORI SAKU</text>
+      <rect x="0" y="26" width="116" height="42" rx="21" fill="#1C1917"/>
+      <text x="58" y="52" text-anchor="middle" fill="#FAF7F2" font-family="Plus Jakarta Sans, sans-serif" font-size="12.5" font-weight="700">Makan &amp; Kopi</text>
+
+      <rect x="124" y="26" width="104" height="42" rx="21" fill="#F3EDE2" stroke="#D8CEBE"/>
+      <text x="176" y="52" text-anchor="middle" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="12.5" font-weight="600">Transport</text>
+
+      <rect x="236" y="26" width="84" height="42" rx="21" fill="#F3EDE2" stroke="#D8CEBE"/>
+      <text x="278" y="52" text-anchor="middle" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="12.5" font-weight="600">Dapur</text>
+    </g>
+
+    <!-- Payment Method & Date Row -->
+    <g transform="translate(20, 546)">
+      <text x="4" y="16" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="11" font-weight="700" letter-spacing="0.8">METODE BAYAR &amp; TANGGAL</text>
+      <rect x="0" y="26" width="154" height="48" rx="16" fill="#F3EDE2" stroke="#D8CEBE"/>
+      <text x="77" y="55" text-anchor="middle" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="12.5" font-weight="700">QRIS / E-Wallet</text>
+
+      <rect x="166" y="26" width="154" height="48" rx="16" fill="#F3EDE2" stroke="#D8CEBE"/>
+      <text x="243" y="55" text-anchor="middle" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="12.5" font-weight="700">Hari ini, 17 Okt</text>
+    </g>
+
+    <!-- Save CTA Button -->
+    <g transform="translate(20, 692)">
+      <rect width="320" height="60" rx="20" fill="#1C1917"/>
+      <rect x="6" y="6" width="308" height="48" rx="16" stroke="#FAF7F2" stroke-opacity="0.22" stroke-dasharray="4 4"/>
+      <text x="160" y="36" text-anchor="middle" fill="#FAF7F2" font-family="Plus Jakarta Sans, sans-serif" font-size="15" font-weight="800">Simpan ke Catatan Harian</text>
+      <text x="160" y="80" text-anchor="middle" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="11">Langsung tersimpan di HP meskipun tanpa internet</text>
+    </g>
+  </g>
+
+  <!-- ======================================================================= -->
+  <!-- FRAME 05: SCREEN 3 - PINDAI STRUK OCR & DRIVE PRIVACY (360 x 800)       -->
+  <!-- ======================================================================= -->
+  <g id="Frame-05-Screen-OCR-Struk-Drive-360x800" transform="translate(2100, 164)" filter="url(#softShadow)">
+    <rect width="360" height="800" rx="36" fill="url(#warmPaperGrad)" stroke="#D8CEBE" stroke-width="3"/>
+
+    <!-- Top Header with clean separation -->
+    <text x="24" y="46" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Kembali</text>
+    <text x="196" y="46" text-anchor="middle" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="15" font-weight="800">Baca Struk Otomatis</text>
+
+    <!-- Tactile Paper Receipt Card -->
+    <g transform="translate(20, 72)">
+      <rect width="320" height="236" rx="22" fill="#1C1917"/>
+      <rect x="40" y="18" width="240" height="200" rx="12" fill="#FAF7F2"/>
+      <text x="160" y="42" text-anchor="middle" fill="#1C1917" font-family="JetBrains Mono, monospace" font-size="12.5" font-weight="700">KOPI KENANGAN - TEBET</text>
+      <line x1="56" y1="54" x2="264" y2="54" stroke="#D8CEBE" stroke-dasharray="3 3"/>
+      <text x="58" y="76" fill="#6B635B" font-family="JetBrains Mono, monospace" font-size="10.5">17/10/2026 16:42</text>
+      <text x="58" y="98" fill="#1C1917" font-family="JetBrains Mono, monospace" font-size="10.5">1x Kenangan Mantan   24.000</text>
+      <text x="58" y="118" fill="#1C1917" font-family="JetBrains Mono, monospace" font-size="10.5">1x Roti Coklat Klasik 18.000</text>
+      <rect x="54" y="136" width="212" height="36" rx="8" fill="#EDF3EF" stroke="#2E5A44" stroke-width="1.5"/>
+      <text x="160" y="159" text-anchor="middle" fill="#2E5A44" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">TOTAL BAYAR: Rp 42.000</text>
+      <text x="160" y="198" text-anchor="middle" fill="#2E5A44" font-family="Plus Jakarta Sans, sans-serif" font-size="11" font-weight="700">Dibaca di HP (Tesseract Lokal)</text>
+    </g>
+
+    <!-- Extracted Fields -->
+    <g transform="translate(20, 324)">
+      <rect width="320" height="226" rx="22" fill="#F3EDE2" stroke="#E5DEC9" stroke-width="1.5"/>
+      <text x="20" y="30" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="13.5" font-weight="800">Hasil Bacaan Struk (Bisa Diubah)</text>
+
+      <rect x="20" y="44" width="280" height="48" rx="14" fill="#FAF7F2" stroke="#B7D1C2"/>
+      <text x="34" y="62" fill="#2E5A44" font-family="Plus Jakarta Sans, sans-serif" font-size="10" font-weight="700">TOTAL BELANJA · AKURAT 96%</text>
+      <text x="34" y="82" fill="#1C1917" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700">Rp 42.000</text>
+
+      <rect x="20" y="102" width="280" height="48" rx="14" fill="#FAF7F2" stroke="#D8CEBE"/>
+      <text x="34" y="120" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="10" font-weight="700">NAMA TOKO / WARUNG</text>
+      <text x="34" y="140" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="13.5" font-weight="700">Kopi Kenangan - Tebet</text>
+
+      <rect x="20" y="160" width="280" height="48" rx="14" fill="#FAF7F2" stroke="#D8CEBE"/>
+      <text x="34" y="178" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="10" font-weight="700">TANGGAL TRANSAKSI</text>
+      <text x="34" y="198" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="13.5" font-weight="700">17 Oktober 2026</text>
+    </g>
+
+    <!-- Warm Google Drive Privacy Guarantee Card -->
+    <g transform="translate(20, 566)">
+      <rect width="320" height="106" rx="20" fill="#FDF8EE" stroke="#EED9A8" stroke-width="1.5"/>
+      <text x="20" y="30" fill="#8C5E14" font-family="Plus Jakarta Sans, sans-serif" font-size="12.5" font-weight="800">Privasi Struk 100% Milikmu</text>
+      <text x="20" y="52" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="11.5">Foto struk ini dibaca langsung oleh prosesor HP-mu</text>
+      <text x="20" y="70" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="11.5">dan disimpan ke folder khusus di Google Drive</text>
+      <text x="20" y="88" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="11.5" font-weight="700">pribadimu — server kami tidak pernah melihatnya.</text>
+    </g>
+
+    <!-- Confirm Button -->
+    <g transform="translate(20, 694)">
+      <rect width="320" height="60" rx="20" fill="#2E5A44"/>
+      <text x="160" y="36" text-anchor="middle" fill="#FAF7F2" font-family="Plus Jakarta Sans, sans-serif" font-size="14.5" font-weight="800">Gunakan Hasil Ini &amp; Simpan</text>
+    </g>
+  </g>
+
+  <!-- ======================================================================= -->
+  <!-- FRAME 06: SCREEN 4 - RIWAYAT & FILTER JURNAL (360 x 800)                -->
+  <!-- ======================================================================= -->
+  <g id="Frame-06-Screen-Riwayat-Jurnal-360x800" transform="translate(2520, 164)" filter="url(#softShadow)">
+    <rect width="360" height="800" rx="36" fill="url(#warmPaperGrad)" stroke="#D8CEBE" stroke-width="3"/>
+
+    <text x="24" y="48" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="20" font-weight="800">Jurnal Rupiahmu</text>
+    <text x="24" y="72" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="11.5">Bisa dicari kapan saja meski sedang tanpa sinyal</text>
+
+    <!-- Search Bar -->
+    <g transform="translate(20, 90)">
+      <rect width="320" height="46" rx="15" fill="#F3EDE2" stroke="#D8CEBE" stroke-width="1.5"/>
+      <text x="18" y="28" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="12.5">Cari "kopi", "listrik", atau nama warung...</text>
+    </g>
+
+    <!-- Filter Chips -->
+    <g transform="translate(20, 150)">
+      <rect width="94" height="36" rx="18" fill="#1C1917"/>
+      <text x="47" y="23" text-anchor="middle" fill="#FAF7F2" font-family="Plus Jakarta Sans, sans-serif" font-size="11.5" font-weight="700">Semua (48)</text>
+
+      <rect x="102" y="0" width="116" height="36" rx="18" fill="#FDF8EE" stroke="#EED9A8"/>
+      <text x="160" y="23" text-anchor="middle" fill="#8C5E14" font-family="Plus Jakarta Sans, sans-serif" font-size="11.5" font-weight="700">Menunggu (2)</text>
+
+      <rect x="226" y="0" width="94" height="36" rx="18" fill="#F3EDE2" stroke="#D8CEBE"/>
+      <text x="273" y="23" text-anchor="middle" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="11.5" font-weight="600">Ada Struk</text>
+    </g>
+
+    <!-- Day Group 1 -->
+    <text x="24" y="218" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="11" font-weight="700" letter-spacing="0.8">JUMAT, 17 OKTOBER 2026</text>
+    
+    <g id="Riwayat-Tx-1" transform="translate(20, 230)">
+      <rect width="320" height="72" rx="18" fill="#FAF7F2" stroke="#E5DEC9" stroke-width="1.5"/>
+      <rect x="12" y="16" width="40" height="40" rx="12" fill="#F6E7E1"/>
+      <circle cx="32" cy="36" r="8" fill="#C85A32"/>
+      <text x="64" y="31" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Nasi Padang Ayam</text>
+      <text x="64" y="51" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="11">Tersimpan di HP · Tunai</text>
+      <text x="306" y="31" text-anchor="end" fill="#C85A32" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700">-Rp 35.000</text>
+      <text x="306" y="51" text-anchor="end" fill="#8C5E14" font-family="Plus Jakarta Sans, sans-serif" font-size="10.5" font-weight="700">Menunggu sinyal</text>
+    </g>
+
+    <!-- Day Group 2 -->
+    <text x="24" y="334" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="11" font-weight="700" letter-spacing="0.8">KAMIS, 16 OKTOBER 2026</text>
+
+    <g id="Riwayat-Tx-2" transform="translate(20, 346)">
+      <rect width="320" height="72" rx="18" fill="#FAF7F2" stroke="#E5DEC9" stroke-width="1.5"/>
+      <rect x="12" y="16" width="40" height="40" rx="12" fill="#EDF3EF"/>
+      <circle cx="32" cy="36" r="8" fill="#2E5A44"/>
+      <text x="64" y="31" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Honor Proyek Desain</text>
+      <text x="64" y="51" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="11">Transfer Bank · Pemasukan</text>
+      <text x="306" y="31" text-anchor="end" fill="#2E5A44" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700">+Rp 1.500.000</text>
+      <text x="306" y="51" text-anchor="end" fill="#2E5A44" font-family="Plus Jakarta Sans, sans-serif" font-size="10.5" font-weight="700">Tersinkron</text>
+    </g>
+
+    <g id="Riwayat-Tx-3" transform="translate(20, 428)">
+      <rect width="320" height="72" rx="18" fill="#FAF7F2" stroke="#E5DEC9" stroke-width="1.5"/>
+      <rect x="12" y="16" width="40" height="40" rx="12" fill="#F3EDE2"/>
+      <circle cx="32" cy="36" r="8" fill="#D99B26"/>
+      <text x="64" y="31" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Sayur &amp; Telur Pasar</text>
+      <text x="64" y="51" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="11">Tunai · Struk di Drive</text>
+      <text x="306" y="31" text-anchor="end" fill="#C85A32" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700">-Rp 64.000</text>
+      <text x="306" y="51" text-anchor="end" fill="#2E5A44" font-family="Plus Jakarta Sans, sans-serif" font-size="10.5" font-weight="700">Tersinkron</text>
+    </g>
+
+    <g id="Riwayat-Tx-4" transform="translate(20, 510)">
+      <rect width="320" height="72" rx="18" fill="#FAF7F2" stroke="#E5DEC9" stroke-width="1.5"/>
+      <rect x="12" y="16" width="40" height="40" rx="12" fill="#F3EDE2"/>
+      <circle cx="32" cy="36" r="8" fill="#6B635B"/>
+      <text x="64" y="31" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">GoRide ke Stasiun</text>
+      <text x="64" y="51" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="11">GoPay · Transportasi</text>
+      <text x="306" y="31" text-anchor="end" fill="#C85A32" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700">-Rp 18.000</text>
+      <text x="306" y="51" text-anchor="end" fill="#2E5A44" font-family="Plus Jakarta Sans, sans-serif" font-size="10.5" font-weight="700">Tersinkron</text>
+    </g>
+  </g>
+
+  <!-- ======================================================================= -->
+  <!-- FRAME 07: SCREEN 5 - HUMANLY CONFLICT RESOLUTION (360 x 800)            -->
+  <!-- ======================================================================= -->
+  <g id="Frame-07-Screen-Konflik-Sinkron-360x800" transform="translate(2940, 164)" filter="url(#softShadow)">
+    <rect width="360" height="800" rx="36" fill="url(#warmPaperGrad)" stroke="#D8CEBE" stroke-width="3"/>
+
+    <text x="24" y="48" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="19" font-weight="800">Ada 1 Catatan Berbeda</text>
+    <text x="24" y="70" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="11.5">Tenang, data aman. Pilih versi yang paling tepat:</text>
+
+    <!-- Version A: Local Phone Card -->
+    <g transform="translate(20, 96)">
+      <rect width="320" height="196" rx="22" fill="#FAF7F2" stroke="#2E5A44" stroke-width="2"/>
+      <rect x="18" y="16" width="140" height="26" rx="13" fill="#EDF3EF"/>
+      <text x="88" y="33" text-anchor="middle" fill="#2E5A44" font-family="Plus Jakarta Sans, sans-serif" font-size="11" font-weight="700">Catatan di HP Ini</text>
+
+      <text x="20" y="70" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="15" font-weight="800">Belanja Bulanan Minimarket</text>
+      <text x="20" y="102" fill="#C85A32" font-family="Georgia, Fraunces, serif" font-size="24" font-weight="700">- Rp 145.000</text>
+      <text x="20" y="126" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="11.5">Diubah saat offline pukul 14:20 · Kategori: Dapur</text>
+
+      <rect x="20" y="142" width="280" height="40" rx="14" fill="#2E5A44"/>
+      <text x="160" y="167" text-anchor="middle" fill="#FAF7F2" font-family="Plus Jakarta Sans, sans-serif" font-size="12.5" font-weight="700">Pakai Versi HP Ini</text>
+    </g>
+
+    <!-- Version B: Server Card -->
+    <g transform="translate(20, 310)">
+      <rect width="320" height="196" rx="22" fill="#F3EDE2" stroke="#D8CEBE" stroke-width="1.5"/>
+      <rect x="18" y="16" width="164" height="26" rx="13" fill="#E5DEC9"/>
+      <text x="100" y="33" text-anchor="middle" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="11" font-weight="700">Catatan Perangkat Lain</text>
+
+      <text x="20" y="70" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="15" font-weight="800">Belanja Minimarket Indomaret</text>
+      <text x="20" y="102" fill="#C85A32" font-family="Georgia, Fraunces, serif" font-size="24" font-weight="700">- Rp 142.500</text>
+      <text x="20" y="126" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="11.5">Disinkronkan pukul 14:15 · Kategori: Belanja</text>
+
+      <rect x="20" y="142" width="280" height="40" rx="14" fill="#FAF7F2" stroke="#1C1917" stroke-width="1.5"/>
+      <text x="160" y="167" text-anchor="middle" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="12.5" font-weight="700">Pakai Versi Awan (Server)</text>
+    </g>
+
+    <!-- Manual Merge Option -->
+    <g transform="translate(20, 526)">
+      <rect width="320" height="52" rx="18" fill="#FAF7F2" stroke="#D8CEBE" stroke-width="1.5"/>
+      <text x="160" y="31" text-anchor="middle" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="12.5" font-weight="700">Gabungkan / Edit Sendiri Angkanya</text>
+    </g>
+  </g>
+
+  <!-- ======================================================================= -->
+  <!-- FRAME 08: SCREEN 6 - PENGATURAN, MEMORI & PRIVASI (360 x 800)           -->
+  <!-- ======================================================================= -->
+  <g id="Frame-08-Screen-Pengaturan-Privasi-360x800" transform="translate(3360, 164)" filter="url(#softShadow)">
+    <rect width="360" height="800" rx="36" fill="url(#warmPaperGrad)" stroke="#D8CEBE" stroke-width="3"/>
+
+    <text x="24" y="48" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="20" font-weight="800">Saku &amp; Privasi</text>
+    <text x="24" y="70" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="11.5">Kendali penuh atas data di HP dan Google Drive-mu</text>
+
+    <!-- Local Storage Health Card -->
+    <g transform="translate(20, 94)">
+      <rect width="320" height="150" rx="22" fill="#F3EDE2" stroke="#E5DEC9" stroke-width="1.5"/>
+      <text x="20" y="30" fill="#2E5A44" font-family="Plus Jakarta Sans, sans-serif" font-size="11" font-weight="800" letter-spacing="0.6">PENYIMPANAN LOKAL HP (PERSISTENT)</text>
+      <text x="20" y="56" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="15" font-weight="800">142 Catatan Tersimpan Aman</text>
+      <text x="20" y="78" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="11.5">Jangan hapus data browser Chrome jika masih ada</text>
+      <text x="20" y="96" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="11.5">catatan yang belum disinkronkan ke akunmu.</text>
+      <rect x="20" y="112" width="184" height="24" rx="12" fill="#EDF3EF"/>
+      <text x="112" y="128" text-anchor="middle" fill="#2E5A44" font-family="Plus Jakarta Sans, sans-serif" font-size="10.5" font-weight="700">Proteksi Memori Aktif</text>
+    </g>
+
+    <!-- Google Drive Connection Card -->
+    <g transform="translate(20, 260)">
+      <rect width="320" height="146" rx="22" fill="#FAF7F2" stroke="#E5DEC9" stroke-width="1.5"/>
+      <text x="20" y="32" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="13.5" font-weight="800">Google Drive Pribadi (Foto Struk)</text>
+      <text x="20" y="54" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="11.5">Hanya akses folder DompetHarian (drive.file).</text>
+      <text x="20" y="72" fill="#6B635B" font-family="Plus Jakarta Sans, sans-serif" font-size="11.5">Aplikasi tidak bisa membaca file Drive-mu yang lain.</text>
+      <rect x="20" y="90" width="280" height="38" rx="14" fill="#1C1917"/>
+      <text x="160" y="114" text-anchor="middle" fill="#FAF7F2" font-family="Plus Jakarta Sans, sans-serif" font-size="12" font-weight="700">Terhubung · Kelola Akses Drive</text>
+    </g>
+
+    <!-- Export CSV & Install PWA -->
+    <g transform="translate(20, 422)">
+      <rect width="320" height="58" rx="18" fill="#FAF7F2" stroke="#E5DEC9" stroke-width="1.5"/>
+      <text x="24" y="34" fill="#1C1917" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Unduh Laporan CSV (Excel)</text>
+    </g>
+
+    <g transform="translate(20, 494)">
+      <rect width="320" height="58" rx="18" fill="#EDF3EF" stroke="#B7D1C2" stroke-width="1.5"/>
+      <text x="24" y="34" fill="#2E5A44" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Pasang Aplikasi di Layar Utama HP</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+  <title>DompetHarian — Android Adaptive Squircle Icon</title>
+  <desc>High-contrast tactile Android home screen icon with stitched leather rim and geometric Origami D wallet mark.</desc>
+  <defs>
+    <linearGradient id="iconBg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#23392D"/>
+      <stop offset="55%" stop-color="#1A2A21"/>
+      <stop offset="100%" stop-color="#141D18"/>
+    </linearGradient>
+    <linearGradient id="paperSpine" x1="116" y1="108" x2="184" y2="404" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#E6DEC8"/>
+    </linearGradient>
+    <linearGradient id="sageFold" x1="200" y1="108" x2="404" y2="246" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#52B788"/>
+      <stop offset="100%" stop-color="#2E5A44"/>
+    </linearGradient>
+    <linearGradient id="terraFold" x1="200" y1="262" x2="404" y2="404" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E07A5F"/>
+      <stop offset="100%" stop-color="#C85A32"/>
+    </linearGradient>
+    <linearGradient id="goldCoin" x1="216" y1="214" x2="300" y2="298" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F7C95F"/>
+      <stop offset="100%" stop-color="#D99B26"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Android Squircle Base -->
+  <g id="Adaptive-Squircle-Base">
+    <rect width="512" height="512" rx="120" fill="url(#iconBg)"/>
+    <rect x="24" y="24" width="464" height="464" rx="100" stroke="#FAF7F2" stroke-opacity="0.16" stroke-width="2.5" stroke-dasharray="10 10"/>
+  </g>
+
+  <!-- 1. Left Spine of 'D' (Warm Paper with Espresso Stitching) -->
+  <g id="Icon-D-Spine">
+    <rect x="116" y="108" width="68" height="296" rx="28" fill="url(#paperSpine)"/>
+    <line x1="150" y1="136" x2="150" y2="376" stroke="#1C1917" stroke-opacity="0.35" stroke-width="3" stroke-dasharray="8 10" stroke-linecap="round"/>
+  </g>
+
+  <!-- 2. Upper Sage Leaf Fold -->
+  <g id="Icon-D-Upper-Leaf">
+    <path d="M200 108 H268 C343.111 108 404 168.889 404 244 V246 H328 V242 C328 206.654 299.346 178 264 178 H200 V108 Z" fill="url(#sageFold)"/>
+    <path d="M352 132 C372 106 404 102 418 106 C414 126 398 150 370 156" fill="#74C69D"/>
+  </g>
+
+  <!-- 3. Lower Terracotta Pocket Fold -->
+  <g id="Icon-D-Lower-Pocket">
+    <path d="M328 262 H404 V268 C404 343.111 343.111 404 268 404 H200 V334 H264 C299.346 334 328 305.346 328 270 V262 Z" fill="url(#terraFold)"/>
+    <circle cx="366" cy="296" r="7" fill="#FAF7F2"/>
+  </g>
+
+  <!-- 4. Center Coin -->
+  <g id="Icon-Center-Coin">
+    <circle cx="258" cy="256" r="42" fill="url(#goldCoin)"/>
+    <circle cx="258" cy="256" r="30" stroke="#FAF7F2" stroke-opacity="0.65" stroke-width="2.5"/>
+    <circle cx="258" cy="256" r="10" fill="#1A2A21"/>
+  </g>
+</svg>

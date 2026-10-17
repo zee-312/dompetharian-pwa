@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #faf7f2;
+  --bg-card: #f3ede2;
+  --bg-ivory: #fffdf9;
+  --border-warm: #e5dec9;
+  --border-strong: #d8cebe;
+  --text-primary: #1c1917;
+  --text-muted: #6b635b;
+  --accent-sage: #2e5a44;
+  --accent-sage-dark: #1e3529;
+  --accent-terracotta: #c85a32;
+  --accent-marigold: #d99b26;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family:
+    'Plus Jakarta Sans',
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: contain;
+}
+
+.font-display-serif {
+  font-family:
+    'Fraunces',
+    Georgia,
+    'Times New Roman',
+    serif;
+}
+
+.font-mono-tabular {
+  font-family:
+    'JetBrains Mono',
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Warm Tactile Stitched Leather Wallet Card */
+.dh-leather-card {
+  background: linear-gradient(155deg, #23392d 0%, #17231c 100%);
+  border: 1px solid #355443;
+  box-shadow:
+    0 12px 28px -8px rgba(28, 25, 23, 0.28),
+    inset 0 1px 0 rgba(250, 247, 242, 0.12);
+}
+
+.dh-leather-stitch {
+  border: 1.2px dashed rgba(217, 155, 38, 0.35);
+}
+
+/* Warm Tactile Paper Card */
+.dh-paper-card {
+  background-color: #fffdf9;
+  border: 1px solid #e5dec9;
+  box-shadow: 0 4px 14px -4px rgba(28, 25, 23, 0.06);
+}
+
+.dh-sand-card {
+  background-color: #f3ede2;
+  border: 1px solid #e5dec9;
+}
+
+/* Modern Web Guidance: Validate Input After Interaction (:user-invalid / :user-valid) */
+.dh-field .dh-error-text {
+  display: none;
+  color: #b83b2b;
+  font-size: 0.8125rem;
+  margin-top: 0.25rem;
+  font-weight: 600;
+}
+
+.dh-input:user-invalid {
+  border-color: #b83b2b;
+  background-color: #fdf2f0;
+}
+
+.dh-input:user-valid {
+  border-color: #2e5a44;
+}
+
+.dh-field:has(.dh-input:user-invalid) .dh-error-text {
+  display: block;
+}
+
+/* Modern Web Guidance: Offscreen Rendering Optimization for Long Transaction Lists */
+.history-day-group-deferred {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 220px;
+}
+
+/* Accessible minimum touch target helper (48x48dp Android guideline) */
+.touch-target-48 {
+  min-height: 48px;
+  min-width: 48px;
+}
